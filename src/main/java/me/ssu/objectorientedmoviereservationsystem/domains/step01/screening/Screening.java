@@ -2,6 +2,7 @@ package me.ssu.objectorientedmoviereservationsystem.domains.step01.screening;
 
 import me.ssu.objectorientedmoviereservationsystem.domains.step01.money.Money;
 import me.ssu.objectorientedmoviereservationsystem.domains.step01.movie.Movie;
+import me.ssu.objectorientedmoviereservationsystem.domains.step01.reserve.Reservation;
 
 import java.time.LocalDateTime;
 
@@ -34,8 +35,8 @@ public class Screening {
 	}
 
 	// TODO 5) 영화 예매(예매자, 인원수)
-	public Reselvation reserve(Customer customer, int audienceCount) {
-		return new Reselvation(customer, calculateFee(audienceCount), audienceCount);
+	public Reservation reserve(Customer customer, int audienceCount) {
+		return new Reservation(customer, calculateFee(audienceCount), audienceCount);
 	}
 
 	// TODO 6) 예매 요금 금액(전체 예매)
