@@ -12,8 +12,8 @@ public class Reservation {
 	private int audienceAmount;     // 인원수
 
 	public Reservation(Customer customer, Screening screening, Money fee, int audienceAmount) {
-		this.screening = screening;
 		this.customer = customer;
+		this.screening = screening;
 		this.fee = fee;
 		this.audienceAmount = audienceAmount;
 	}
