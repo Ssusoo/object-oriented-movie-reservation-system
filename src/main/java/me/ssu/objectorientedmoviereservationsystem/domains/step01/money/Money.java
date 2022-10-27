@@ -2,7 +2,7 @@ package me.ssu.objectorientedmoviereservationsystem.domains.step01.money;
 
 import java.math.BigDecimal;
 
-// 금액
+// 금액(Money)
 public class Money {
 	public static final Money ZERO = Money.wons(0);
 
@@ -15,14 +15,13 @@ public class Money {
 		this.amount = amount;
 	}
 
-
-	// TODO
+	// TODO 정수 떨어질 때
 	public static Money wons(long amount) {
 		// valueOf() : Number 객체 형으로 변환해 반환함.
 		return new Money(BigDecimal.valueOf(amount));
 	}
 
-	// TODO
+	// TODO 소수로 떨어질 때
 	public static Money wons(double amount) {
 		// valueOf() : Number 객체 형으로 변환해 반환함.
 		return new Money(BigDecimal.valueOf(amount));
