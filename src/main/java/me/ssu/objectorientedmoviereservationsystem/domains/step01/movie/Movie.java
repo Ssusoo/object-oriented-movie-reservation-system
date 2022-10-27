@@ -10,7 +10,7 @@ import java.time.Duration;
 public class Movie {
 	private String title;                       // 영화제목
 	private Duration runningTime;               // 상영시간
-	private Money fee;                          // 요금
+	private Money fee;                          // 기본 요금
 	private DiscountPolicy discountPolicy;      // 할인정책
 
 	// TODO 1) 영화
