@@ -1,5 +1,7 @@
 package me.ssu.objectorientedmoviereservationsystem.domains.step01.screening;
 
+import me.ssu.objectorientedmoviereservationsystem.domains.step01.money.Money;
+
 import java.time.LocalDateTime;
 
 // 상영(Screening)
