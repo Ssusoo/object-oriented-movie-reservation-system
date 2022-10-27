@@ -36,8 +36,9 @@ public abstract class DiscountPolicy {
 /*
 TODO 추상 클래스(abstract class)
 	정의
-		1) 일반 변수나 메소드를 같이 선언할 수 있음.
-		2) 상속(extends)은 클래스를 통해 강하게 결합된다.
+		1) 단일 상속
+		2) 일반 변수나 메소드를 같이 선언할 수 있음.
+		3) 상속(extends)은 클래스를 통해 강하게 결합된다.
 
 TODO new ArrayList<>()와 Arrays.asList()
 	1) new ArrayList<>()
