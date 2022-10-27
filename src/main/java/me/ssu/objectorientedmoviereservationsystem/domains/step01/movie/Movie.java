@@ -1,5 +1,6 @@
 package me.ssu.objectorientedmoviereservationsystem.domains.step01.movie;
 
+import me.ssu.objectorientedmoviereservationsystem.domains.step01.discount.DiscountPolicy;
 import me.ssu.objectorientedmoviereservationsystem.domains.step01.money.Money;
 import me.ssu.objectorientedmoviereservationsystem.domains.step01.screening.Screening;
 
