@@ -29,5 +29,11 @@ public class DiscountPolicyManual {
 			상영정보(Screening)가 할인조건에 부합하면
 			true, 할인금액을 정보 반환
 			false, 제로 반환
+
+	2) 금액 할인 정책(AmountDiscountPolicy)
+		1-1)-1. 변수
+			할인 금액(discountAmount)
+		1-1)-2. 생성자
+			금액할인정책(할인금액, 할인조건)
 */
 }
