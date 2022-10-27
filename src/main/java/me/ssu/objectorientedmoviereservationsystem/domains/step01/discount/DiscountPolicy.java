@@ -5,6 +5,7 @@ import me.ssu.objectorientedmoviereservationsystem.domains.step01.screening.Scre
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 // 할인정책(DiscountPolicy)
 public abstract class DiscountPolicy {
@@ -12,7 +13,7 @@ public abstract class DiscountPolicy {
 	private List<DiscountCondition> conditions = new ArrayList<>();
 
 	// TODO 1) 할인정책
-	public DiscountPolicy(DiscountPolicy ... conditions) {
+	public DiscountPolicy(DiscountCondition ... conditions) {
 		// ArrayList class -> set(), get(), contains(). size()는 바꿀 수 없음.
 		this.conditions = Arrays.asList(conditions);
 	}
