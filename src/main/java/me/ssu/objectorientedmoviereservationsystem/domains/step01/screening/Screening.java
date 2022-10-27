@@ -1,6 +1,7 @@
 package me.ssu.objectorientedmoviereservationsystem.domains.step01.screening;
 
 import me.ssu.objectorientedmoviereservationsystem.domains.step01.money.Money;
+import me.ssu.objectorientedmoviereservationsystem.domains.step01.movie.Movie;
 
 import java.time.LocalDateTime;
 
@@ -28,7 +29,7 @@ public class Screening {
 	}
 
 	// TODO 4) 기본 요금 반환하는 메서드
-	public Movie getMovieFee() {
+	public Money getMovieFee() {
 		return movie.getFee();
 	}
 
