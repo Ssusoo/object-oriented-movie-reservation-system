@@ -37,7 +37,7 @@ public class Screening {
 
 	// TODO 5) 영화 예매(예매자, 인원수)
 	public Reservation reserve(Customer customer, int audienceCount) {
-		return new Reservation(customer, , calculateFee(audienceCount), audienceCount);
+		return new Reservation(customer, this, calculateFee(audienceCount), audienceCount);
 	}
 
 	// TODO 6) 예매 요금 금액(전체 예매)
