@@ -28,7 +28,7 @@ public class Screening {
 		return this.sequence == sequence;
 	}
 
-	// TODO 4) 기본 요금 반환하는 메서드
+	// TODO 4) 기본 요금 반환하는 메서드(영화 기본요금)
 	public Money getMovieFee() {
 		return movie.getFee();
 	}
