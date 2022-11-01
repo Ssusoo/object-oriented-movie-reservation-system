@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 
 // 할인정책(DiscountPolicy)
-public abstract class DiscountPolicy {
+public abstract class DiscountPolicy implements DefaultDiscountPolicy {
 	// 할인조건
 	private List<DiscountCondition> conditions = new ArrayList<>();
 
